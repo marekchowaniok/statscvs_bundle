@@ -1,0 +1,7 @@
+# global mac os x's specific files
+.DS_Store
+
+*/tmp
+*/.idea
+*/.project
+*.*~
