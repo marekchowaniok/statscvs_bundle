@@ -61,6 +61,7 @@ class Stats
 
   if __FILE__ == $PROGRAM_NAME
     Stats.new('john', 'tmp', 'out', 'CVSTest', '@cvs.domain.com:/path/to/repository/in/CVS').help
+    #Stats.new('john', 'tmp', 'out', 'CVSTest', '@cvs.domain.com:/path/to/repository/in/CVS').run
 
   end
 
