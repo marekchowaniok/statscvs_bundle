@@ -53,6 +53,7 @@ class Stats
 
   def help
     print 'This is script which checkout your CVS code and create statistics output using statcvs project (search on sourceforge )'
+    print '\n\n in same directory where is this script have also statcvs.jar file (and of course ruby and java installed)'
     print "\n\nRun it as: Stats.new('CVS_user_name', 'tmp_dir', 'out_dir', 'CVS_project_name', 'CVS_ROOT_URL_see_example').run"
     print "\n\nFor example: Stats.new('john', 'tmp', 'out', 'CVSTest', '@cvs.domain.com:/path/to/repository/in/CVS').run"
   end
